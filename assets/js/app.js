@@ -29,3 +29,6 @@ console.log( { d } );
 
 console.table( {a,b,c,e,f} );
 
+
+var miNombre = 'Cristian'; // Las variables definidas con var se almacenan en el objeto global window (mala práctica)
+
