@@ -6,7 +6,7 @@
 //     }
 // }
 
-// function crearPersona( nombre, apellido ){
+// function crearPersona( nombre, apellido ){  // Retorna un objeto con forma: { nombre: nombre, apellido: apellido }
 //     return {
 //         nombre,
 //         apellido,
