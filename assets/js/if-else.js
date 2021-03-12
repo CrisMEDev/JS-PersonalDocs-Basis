@@ -37,3 +37,23 @@ if ( dia === 0 ){   // Tripe === significa comparar el valor y el objeto mientra
 }
 
 
+// Tarea dias de la semana
+
+const diasLetras = {
+    0: () => 'Domingo - 0',
+    1: () => 'Lunes - 0',
+    2: () => 'Martes - 0',
+    3: () => 'Miércoles - 0',
+    4: () => 'Jueves - 0',
+    5: () => 'Viernes - 0',
+    6: () => 'Sábado - 0',
+}
+
+console.log( diasLetras[dia]() );  // Los parentesis son para ejecutar la funcion de flecha
+
+
+const diasSemana = [ 'Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado' ];
+
+console.log( diasSemana[dia] );
+
+
