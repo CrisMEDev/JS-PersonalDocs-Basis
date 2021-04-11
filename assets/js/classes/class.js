@@ -18,6 +18,15 @@ class Persona { // Por defecto todas las clases en JS usan el 'use strict'
         this.frase = frase;
     }
 
+    quienSoy() {
+        console.log(`Soy ${this.nombre} y mi identidad es: ${ this.codigo }`);
+    }
+
+    miFrase(){
+        this.quienSoy();
+        console.log(`${this.codigo} dice: ${ this.frase }`);
+    }
+
 }
 
 const spiderman = new Persona('Peter Parker', 'Spiderman', 'Soy tu amigable vecino spiderman');
@@ -25,3 +34,6 @@ const ironman = new Persona('Tony Stark', 'Ironman', 'Yo soy ironman');
 console.log( spiderman );
 console.log( ironman );
 
+spiderman.quienSoy();
+// ironman.quienSoy();
+ironman.miFrase();
